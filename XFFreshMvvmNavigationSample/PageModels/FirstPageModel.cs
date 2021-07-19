@@ -10,12 +10,19 @@ namespace XFFreshMvvmNavigationSample.PageModels
 
         public Command ClosePageCommand { get; set; }
 
+        public YouTuber YouTuber { get; set; }
+
         public FirstPageModel()
         {
             ClosePageCommand = new Command(() =>
             {
-                CoreMethods.PopPageModel(modal: true);
+                CoreMethods.PopPageModel(YouTuber, modal: true);
             });
+        }
+
+        public override void Init(object initData)
+        {
+            YouTuber = initData as YouTuber;
         }
     }
 }

@@ -4,6 +4,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="XFFreshMvvmNavigationSample.Pages.FirstPage"
     Title="Our First Page">
+    <StackLayout>
         <Label Text="{Binding FirstPageMessage}" />
         <Button Text="Close Page" Command="{Binding ClosePageCommand}" />
+        <Label Text="{Binding YouTuber.Author}" />
+        <CheckBox IsChecked="{Binding YouTuber.Subscribed}" />
+    </StackLayout>
 </ContentPage>
