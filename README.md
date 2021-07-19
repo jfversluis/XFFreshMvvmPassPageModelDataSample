@@ -1,4 +1,4 @@
-[![YouTube Video Views](https://img.shields.io/youtube/views/c7ykj66cbgy?style=social)](https://youtu.be/C7ykJ66CbgY)
+[![YouTube Video Views](https://img.shields.io/youtube/views/QBtNX0AylKc?style=social)](https://youtu.be/QBtNX0AylKc)
 
-# Xamarin.Forms FreshMvvm Basic Navigation Sample
-Sample code to demonstratic basic navigation with FreshMvvm in Xamarin.Forms.
+# Xamarin.Forms FreshMvvm Pass Data Between ViewModels Sample
+Sample code to demonstrate passing data between view models with FreshMvvm in Xamarin.Forms.
